@@ -1,0 +1,11 @@
+# Sfeir template slides
+
+## How to generate the slides ?
+
+[source,bash]
+----
+make generate # Generate HTML slides in ./docs/index.html
+make pdf # Generate PDF slides from HTML slides in ./docs/slides.pdf
+----
+
+You can then find the generated content in ./docs/

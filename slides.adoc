@@ -1,0 +1,79 @@
+:sectids:
+:source-highlighter: highlightjs
+:data-uri:
+:allow-uri-read:
+:linkattrs:
+:idprefix:
+:imagedir: ./images
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0
+:icons: font
+:revealjs_theme: white
+// “default”, “simple”, “sky”, “beige”, “serif”, “solarized”, “blood”, “moon”, “night”, “black”, “league” or “white”
+
+:revealjs_history: true
+:revealjs_margin: 0.1
+:revealjs_width: 1280
+:revealjs_height: 800
+:revealjs_minscale: 0.2
+:revealjs_maxscale: 1.5
+:revealjs_slideNumber: true
+:revealjs_controls: true
+:revealjs_slideNumber: true
+:customcss: images/sfeir-tmplt.css
+
+== !
+image::{imagedir}/sfeir-commercial-design-fonds_hexagones.jpg[background, size=cover]
+
+== Titre
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+
+image::{imagedir}/logo-sfeir-big.png[noborder]
+
+Sous-Titre
+
+== !
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+
+image::{imagedir}/logo-sfeir-big.png[]
+
+Le développeur au coeur du numérique
+
+== Exemple de Titre de Chapitre
+image::{imagedir}/sfeir_fond_bleu.png[background, size=cover]
+
+== Règles d’usage des typographies
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+
+Les titres et les sous-titres utilisent la typographie Montserrat
+
+Le corps du texte utilise la typographie Calibri
+
+Comme les titres, les nombres sont en Montserrat
+
+42
+
+== Règles d’usage des couleurs Les titres sont en orange #E75112
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+
+Les sous-titres sont en bleu #054F84
+
+Le corps du texte est en gris/noir #44444
+Les chiffres clés seront par ordre d’importance : oranges, bleus ou gris/noirs
+42 42 42
+
+== Exemple de résultats
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+
+== Exemple de liste numérotée
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+
+Priorité lorem ipsum dolores ictua
+
+. Brown
+. Lorem ipsum dolores
+. Lorem ipsum dolores
+. Lorem ipsum dolores
+
+
+
+

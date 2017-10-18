@@ -1,0 +1,8 @@
+version: "2.1"
+
+services:
+  build-slides:
+    image: dduportal/docker-asciidoctor:alpine
+    volumes:
+    - ./:/documents
+    command: asciidoctor-revealjs -D /documents/docs -o slides.html /documents/slides.adoc
