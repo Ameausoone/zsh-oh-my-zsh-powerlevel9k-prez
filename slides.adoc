@@ -24,56 +24,28 @@
 == !
 image::{imagedir}/sfeir-commercial-design-fonds_hexagones.jpg[background, size=cover]
 
-== Titre
+== Zsh Oh-myZsh et powerlevel9k
 image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 image::{imagedir}/logo-sfeir-big.png[noborder]
 
-Sous-Titre
+(et autres scripts...)
+// Here are the chapters
+:leveloffset: +1
 
-== !
-image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+include::chapters/01-zsh.adoc[]
 
-image::{imagedir}/logo-sfeir-big.png[]
+include::chapters/02-oh-my-zsh.adoc[]
 
-Le développeur au coeur du numérique
+include::chapters/03-autocompletion.adoc[]
 
-== Exemple de Titre de Chapitre
-image::{imagedir}/sfeir_fond_bleu.png[background, size=cover]
+include::chapters/04-powerlevel9k.adoc[]
 
-== Règles d’usage des typographies
-image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+include::chapters/05-provisionning.adoc[]
 
-Les titres et les sous-titres utilisent la typographie Montserrat
-
-Le corps du texte utilise la typographie Calibri
-
-Comme les titres, les nombres sont en Montserrat
-
-42
-
-== Règles d’usage des couleurs Les titres sont en orange #E75112
-image::{imagedir}/sfeir_fond_big.png[background, size=cover]
-
-Les sous-titres sont en bleu #054F84
-
-Le corps du texte est en gris/noir #44444
-Les chiffres clés seront par ordre d’importance : oranges, bleus ou gris/noirs
-42 42 42
-
-== Exemple de résultats
-image::{imagedir}/sfeir_fond_big.png[background, size=cover]
-
-== Exemple de liste numérotée
-image::{imagedir}/sfeir_fond_big.png[background, size=cover]
-
-Priorité lorem ipsum dolores ictua
-
-. Brown
-. Lorem ipsum dolores
-. Lorem ipsum dolores
-. Lorem ipsum dolores
+include::chapters/06-various-scripts.adoc[]
 
 
+:leveloffset: -1
 
-
+== Merci
