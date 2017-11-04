@@ -1,0 +1,25 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - mkdir -p docs
+  - docker pull asciidoctor/docker-asciidoctor:latest
+
+script:
+  - docker run -v $TRAVIS_BUILD_DIR/:/documents/ --name asciidoc-to-revealjs-prez asciidoctor/docker-asciidoctor:latest asciidoctor-revealjs -D /documents/docs -o slides.html /documents/slides.adoc
+
+after_error:
+  - docker logs asciidoc-to-revealjs-prez
+
+after_failure:
+  - docker logs asciidoc-to-revealjs-prez
+
+after_success:
+  - cd docs ; mv slides.html index.html ; cp -R ../images images
+  - git init
+  - git config user.name "${GH_USER_NAME}"
+  - git config user.email "{GH_USER_EMAIL}"
+  - git add . ; git commit -m "Deploy to GitHub Pages"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1

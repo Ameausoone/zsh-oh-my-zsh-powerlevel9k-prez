@@ -34,18 +34,17 @@ image::{imagedir}/logo-sfeir-big.png[noborder]
 
 :leveloffset: +1
 
-include::chapters/01-zsh.adoc[]
+include::chapters/01-provisionning.adoc[]
 
-include::chapters/02-oh-my-zsh.adoc[]
+include::chapters/02-zsh.adoc[]
 
-include::chapters/03-autocompletion.adoc[]
+include::chapters/03-oh-my-zsh.adoc[]
 
-include::chapters/04-powerlevel9k.adoc[]
+include::chapters/04-autocompletion.adoc[]
 
-include::chapters/05-provisionning.adoc[]
+include::chapters/05-powerlevel9k.adoc[]
 
 include::chapters/06-various-scripts.adoc[]
-
 
 :leveloffset: -1
 
