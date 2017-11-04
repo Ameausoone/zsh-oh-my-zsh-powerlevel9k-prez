@@ -1,6 +1,12 @@
-# Sfeir template slides
+= Sfeir template slides
 
-## How to generate the slides ?
+Prez about Zsh, Oh-my-Zsh and powerlevel9k.
+
+== Slides
+
+Slides are available and automatically publish on https://ameausoone.github.io/zsh-oh-my-zsh-powerlevel9k-prez/[GH pages]
+
+== How to generate the slides ?
 
 [source,bash]
 ----
