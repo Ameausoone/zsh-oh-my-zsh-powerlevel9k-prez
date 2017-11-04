@@ -21,7 +21,7 @@
 :revealjs_slideNumber: true
 :customcss: images/sfeir-tmplt.css
 
-== !
+== Zsh
 image::{imagedir}/sfeir-commercial-design-fonds_hexagones.jpg[background, size=cover]
 
 == Zsh Oh-myZsh et powerlevel9k
@@ -31,6 +31,7 @@ image::{imagedir}/logo-sfeir-big.png[noborder]
 
 (et autres scripts...)
 // Here are the chapters
+
 :leveloffset: +1
 
 include::chapters/01-zsh.adoc[]
