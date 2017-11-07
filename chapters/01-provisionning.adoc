@@ -2,5 +2,12 @@
 = Provisionning
 image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
+Do you source your dotfiles ?
+
 == Details
 image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+
+* https://github.com/geerlingguy/mac-dev-playbook[mac-dev-playbook]
+* https://dotfiles.github.io/[GitHub ❤ ~/]
+* http://bfy.tw/Eson[Tools to source dotfiles]
+* http://docs.ansible.com/ansible/latest/index.html[Ansible]

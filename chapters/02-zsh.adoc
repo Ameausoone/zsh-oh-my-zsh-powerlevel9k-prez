@@ -2,10 +2,31 @@
 = Zsh
 image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
-== Details
+* http://zsh.sourceforge.net/Intro/intro_toc.html[Zsh SourceForge]
+* https://doc.ubuntu-fr.org/zsh[Doc Ubuntu]
+
+
+== Installation
 image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 [source]
+MacOS
 ----
-$ brew install zsh
+$ brew install zsh zsh-completions
+$ chsh -s /usr/local/bin/zsh
 ----
+
+[source]
+Ubuntu
+----
+$ apt-get install zsh
+$ chsh -s `which zsh`
+----
+
+== Usage
+
+[source]
+----
+$ ~/.zshrc # Default file for configuration
+----
+
