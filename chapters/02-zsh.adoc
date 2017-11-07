@@ -2,31 +2,70 @@
 = Zsh
 image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
+[quote]
+____
+zsh is a shell designed for interactive use, although it is also a powerful scripting language.
+____
+
 * http://zsh.sourceforge.net/Intro/intro_toc.html[Zsh SourceForge]
 * https://doc.ubuntu-fr.org/zsh[Doc Ubuntu]
-
 
 == Installation
 image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
+.MacOS
 [source]
-MacOS
 ----
 $ brew install zsh zsh-completions
 $ chsh -s /usr/local/bin/zsh
 ----
 
+.Ubuntu
 [source]
-Ubuntu
 ----
 $ apt-get install zsh
 $ chsh -s `which zsh`
 ----
 
-== Usage
+== Basic Usage 
 
 [source]
 ----
-$ ~/.zshrc # Default file for configuration
+$ ls **/*.txt       # Recursive
+$ ls *.[^oh]        # exclude
+$ ls run<200-300>   # range
+$ ls *.c~bar.c     # exclude file
+---- 
+
+== Configuration
+
+.Default file for configuration
+[source]
+----
+$ ~/.zshrc # 
 ----
 
+== Completion
+
+.brew
+[source]
+----
+$ brew install zsh-completions
+----
+
+.zshrc
+[source]
+----
+autoload -U compinit
+compinit
+----
+
+[source]
+----
+ls -
+-1  -- single column output
+-A  -- list all except . and ..
+-B  -- print octal escapes for control characters
+-C  -- list entries in columns sorted vertically
+....
+----
