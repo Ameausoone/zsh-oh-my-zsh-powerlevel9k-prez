@@ -1,0 +1,6 @@
+
+= Autocompletion
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+
+== Details
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]

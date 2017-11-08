@@ -1,0 +1,132 @@
+
+= Shell alternatif
+
+[%step]
+* http://www.zsh.org/[Zsh]
+* https://github.com/fish-shell/fish-shell[Fish] "Finally, a command
+line shell for the 90s"
+* https://www.slant.co/versus/523/1602/[zsh_vs_fish]
+
+== Zsh
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+
+[quote]
+____
+zsh is a shell designed for interactive use, although it is also a powerful scripting language.
+____
+
+* http://zsh.sourceforge.net/Intro/intro_toc.html[Zsh SourceForge]
+* https://doc.ubuntu-fr.org/zsh[Doc Ubuntu]
+
+== Installation
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+
+.MacOS
+[source]
+----
+$ brew install zsh
+$ chsh -s /usr/local/bin/zsh
+----
+
+.Ubuntu
+[source]
+----
+$ apt-get install zsh
+$ chsh -s `which zsh`
+----
+
+== Configuration
+
+.Default file for configuration
+[source]
+----
+$ ~/.zshrc # 
+----
+
+== Basic Usage 
+
+[source]
+----
+$ ls **/*.txt       # extended globbing
+$ ls *.[^oh]        # exclude
+$ ls run<200-300>   # range
+$ ls *.c~bar.c     # exclude file
+---- 
+
+== cd completion
+
+[source]
+----
+$ cd 
+chapters/  docs/      images/
+----
+
+[source]
+----
+$ cd /u/l/b/ <TAB>
+$ cd /usr/local/bin/
+----
+
+== Path replacement
+
+[source]
+----
+$ cd /usr/local/bin
+$ cd bin share
+/usr/local/share
+----
+
+== Suffix aliases 
+
+.zshrc
+[source]
+----
+alias -s md="code"
+----
+
+[source]
+----
+./README.md
+----
+
+== And....
+
+Programmable completion
+
+== zsh-completions
+
+.brew
+[source]
+----
+$ brew install zsh-completions
+----
+
+.zshrc
+[source]
+----
+autoload -U compinit
+compinit
+----
+
+[source]
+----
+$ ls -
+-1  -- single column output
+-A  -- list all except . and ..
+-B  -- print octal escapes for control characters
+-C  -- list entries in columns sorted vertically
+....
+----
+
+[source]
+----
+ln -s 2.4.11 latest
+-F      -- remove existing destination directories
+-f      -- remove existing destination files
+....
+----
+
+== zsh-syntax-highlighting
+
+== zsh-autosuggestions
+

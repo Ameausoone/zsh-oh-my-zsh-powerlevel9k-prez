@@ -15,6 +15,3 @@ generate: ## Generate HTML slides in ./docs/index.html
 
 pdf: generate  ## Generate PDF slides from HTML slides in ./docs/slides.pdf
 	docker-compose -f pdf.yml up
-
-serve: generate ##
-	
