@@ -2,5 +2,26 @@
 = Various
 image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
+== FZF
+
+> A command-line fuzzy finder
+
+* https://github.com/junegunn/fzf[FZF]
+
+image::{imagedir}/fzf.gif[]
+
+== z 
+
+> changez rapidement de répertoire
+
+* https://github.com/rupa/z[z]
+
+== Shell Highlighting
+
+> de la coloration syntaxique pour la ligne de commande
+
+* https://github.com/zdharma/fast-syntax-highlighting[Zshell Fast Syntax Highlighting]
+
+
 == Details
 image::{imagedir}/sfeir_fond_big.png[background, size=cover]
