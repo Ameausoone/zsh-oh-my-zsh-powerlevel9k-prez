@@ -36,28 +36,31 @@ $ chsh -s `which zsh`
 ----
 
 == Configuration
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 .Default file for configuration
 [source]
 ----
-$ ~/.zshrc # 
+$ ~/.zshrc #
 ----
 
-== Basic Usage 
+== Basic Usage
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 [source]
 ----
 $ ls **/*.txt       # extended globbing
 $ ls *.[^oh]        # exclude
 $ ls run<200-300>   # range
-$ ls *.c~bar.c     # exclude file
----- 
+$ ls *.c~bar.c      # exclude file
+----
 
 == cd completion
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 [source]
 ----
-$ cd 
+$ cd
 chapters/  docs/      images/
 ----
 
@@ -68,6 +71,7 @@ $ cd /usr/local/bin/
 ----
 
 == Path replacement
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 [source]
 ----
@@ -76,7 +80,8 @@ $ cd bin share
 /usr/local/share
 ----
 
-== Suffix aliases 
+== Suffix aliases
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 .zshrc
 [source]
@@ -90,10 +95,12 @@ alias -s md="code"
 ----
 
 == And....
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 Programmable completion
 
 == zsh-completions
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 .brew
 [source]
@@ -127,6 +134,17 @@ ln -s 2.4.11 latest
 ----
 
 == zsh-syntax-highlighting
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+
+* Before : image:{imagedir}/before1-smaller.png[before,300,30]
+* After : image:{imagedir}/after1-smaller.png[after,300,30]
+* Before : image:{imagedir}/before2-smaller.png[before,300,60]
+* After : image:{imagedir}/after2-smaller.png[after,300,60]
+* Before: image:{imagedir}/before3-smaller.png[before,300,30]
+* After: image:{imagedir}/after3-smaller.png[after,300,30]
 
 == zsh-autosuggestions
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
+[link=https://asciinema.org/a/37390]
+image::https://camo.githubusercontent.com/8135e25b744f29e5fd83964eded4bd255aa1da74/68747470733a2f2f61736369696e656d612e6f72672f612f33373339302e706e67[]
