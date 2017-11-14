@@ -56,7 +56,7 @@ https://github.com/djui/alias-tips[djui/alias-tips]
 
 [source]
 ----
-antigem bundle djui/alias-tips[]
+antigem bundle djui/alias-tips
 ----
 
 [source]

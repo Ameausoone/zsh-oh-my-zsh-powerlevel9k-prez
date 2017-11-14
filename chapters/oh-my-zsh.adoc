@@ -3,7 +3,7 @@
 image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 [%step]
-* https://github.com/zsh-users
+* https://github.com/zsh-users[zsh-users]
 * https://github.com/sorin-ionescu/prezto[Prezto]
 * https://github.com/robbyrussell/oh-my-zsh[Oh My Zsh]
 
@@ -15,7 +15,7 @@ image::{imagedir}/oh-my-zsh-github.png[]
 
 == Plugins
 
-https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins
+https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins[oh-my-zsh/plugins]
 
 == Examples
 
