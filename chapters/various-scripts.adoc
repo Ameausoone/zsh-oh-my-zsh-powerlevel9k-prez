@@ -32,9 +32,6 @@ image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 https://github.com/ruyadorno/ipt[iPipeTo]
 
-== ipt
-image::{imagedir}/sfeir_fond_big.png[background, size=cover]
-
 == .zshrc.d
 
 .zshrc.d
@@ -53,6 +50,17 @@ advanced-ssh.sh  env.sh           ipt.sh           macosx.test      svn.sh
 aliases.sh       golang.sh        lmfr.sh          powerlevel9K.sh  zsh-highlight.sh
 ----
 
-== djui/alias-tips
+== alias-tips
 
-antigem bundle djui/alias-tips
+https://github.com/djui/alias-tips[djui/alias-tips]
+
+[source]
+----
+antigem bundle djui/alias-tips[]
+----
+
+[source]
+----
+$ git commit -am
+Alias tip: g cam
+----
