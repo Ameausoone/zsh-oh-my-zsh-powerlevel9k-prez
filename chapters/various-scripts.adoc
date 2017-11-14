@@ -52,3 +52,7 @@ $ ls ~/.zshrc.d/
 advanced-ssh.sh  env.sh           ipt.sh           macosx.test      svn.sh
 aliases.sh       golang.sh        lmfr.sh          powerlevel9K.sh  zsh-highlight.sh
 ----
+
+== djui/alias-tips
+
+antigem bundle djui/alias-tips

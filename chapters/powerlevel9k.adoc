@@ -2,9 +2,23 @@
 = Powerlevel9k
 image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
+> Powerlevel9k is a theme for ZSH which uses Powerline Fonts.
 
+https://github.com/bhilburn/powerlevel9k[bhilburn/powerlevel9k]
 
-antigen theme bhilburn/powerlevel9k
+image::{imagedir}/powerlevel9k.png[]
 
-== Details
+== Installation
 image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+
+[source]
+----
+$ brew tap caskroom/fonts
+$ brew cask install font-hack-nerd-font
+$ antigen theme bhilburn/powerlevel9k
+----
+
+== Customization
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+
+https://github.com/bhilburn/powerlevel9k#prompt-customization[prompt-customization]
