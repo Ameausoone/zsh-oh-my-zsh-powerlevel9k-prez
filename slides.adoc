@@ -24,7 +24,7 @@
 == !
 image::{imagedir}/sfeir-commercial-design-fonds_hexagones.jpg[background, size=cover]
 
-== Zsh Oh-myZsh et powerlevel9k
+== Zsh, Oh-my-zsh et powerlevel9k
 image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 image::{imagedir}/logo-sfeir-big.png[noborder]
@@ -35,8 +35,6 @@ image::{imagedir}/logo-sfeir-big.png[noborder]
 
 :leveloffset: +1
 
-include::chapters/provisionning.adoc[]
-
 include::chapters/zsh.adoc[]
 
 include::chapters/oh-my-zsh.adoc[]
@@ -44,6 +42,8 @@ include::chapters/oh-my-zsh.adoc[]
 include::chapters/autocompletion.adoc[]
 
 include::chapters/powerlevel9k.adoc[]
+
+include::chapters/provisionning.adoc[]
 
 include::chapters/various-scripts.adoc[]
 

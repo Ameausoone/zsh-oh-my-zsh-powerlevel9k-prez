@@ -10,7 +10,7 @@ image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 image::{imagedir}/fzf.gif[]
 
-== z 
+== z | autojump
 
 > changez rapidement de répertoire
 

@@ -4,17 +4,7 @@ image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 [%step]
 * https://github.com/zsh-users
-* https://github.com/zsh-users/antigen[antigen] package manager for zsh
 * Prezto
 * https://github.com/robbyrussell/oh-my-zsh[oh-my-zsh]
 
-Oh my Zsh
-
-
-== Installation
-image::{imagedir}/sfeir_fond_big.png[background, size=cover]
-
-[source]
-----
-get https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
-----
+== Details

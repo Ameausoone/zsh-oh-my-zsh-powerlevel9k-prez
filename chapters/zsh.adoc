@@ -99,21 +99,60 @@ image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 Programmable completion
 
-== zsh-completions
-image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+== Antigen
 
-.brew
+> The plugin manager for zsh.
+
+== Antigen - installation
+
 [source]
 ----
-$ brew install zsh-completions
+$ brew install antigen
 ----
 
 .zshrc
 [source]
 ----
-autoload -U compinit
-compinit
+source /usr/local/share/antigen/antigen.zsh
+
+antigen init ~/.antigenrc
 ----
+
+== Antigen - installation 2
+
+.antigenrc
+[source]
+----
+# Load the oh-my-zsh's library.
+antigen use oh-my-zsh
+
+# Bundles from the default repo (robbyrussell's oh-my-zsh).
+antigen bundle autojump
+antigen bundle thefuck
+antigen bundle git
+antigen bundle web-search
+
+# Syntax highlighting bundle.
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# Load the theme.
+antigen theme robbyrussell
+
+# Load bundle from https://github.com/....
+antigen bundle djui/alias-tips
+
+# Tell antigen that you're done and activate completion
+antigen apply
+----
+
+== Antigen - installation 2
+
+If problem with new bundles, delete ~/.antigen/
+
+== zsh-completions
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+
+https://github.com/zsh-users/zsh-completions/[zsh-users/zsh-completions]
 
 [source]
 ----
@@ -133,8 +172,13 @@ ln -s 2.4.11 latest
 ....
 ----
 
+* ssh
+* kill
+
 == zsh-syntax-highlighting
 image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+
+https://github.com/zsh-users/zsh-syntax-highlighting[zsh-users/zsh-syntax-highlighting]
 
 * Before : image:{imagedir}/before1-smaller.png[before,300,30]
 * After : image:{imagedir}/after1-smaller.png[after,300,30]
@@ -145,6 +189,8 @@ image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 == zsh-autosuggestions
 image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+
+https://github.com/zsh-users/zsh-autosuggestions[zsh-users/zsh-autosuggestions]
 
 [link=https://asciinema.org/a/37390]
 image::https://camo.githubusercontent.com/8135e25b744f29e5fd83964eded4bd255aa1da74/68747470733a2f2f61736369696e656d612e6f72672f612f33373339302e706e67[]
