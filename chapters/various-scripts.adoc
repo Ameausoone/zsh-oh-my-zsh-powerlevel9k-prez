@@ -3,6 +3,7 @@
 image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 == FZF
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 > A command-line fuzzy finder
 
@@ -10,17 +11,44 @@ image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 image::{imagedir}/fzf.gif[]
 
-== z 
+== z
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 > changez rapidement de répertoire
 
 * https://github.com/rupa/z[z]
 
 == Shell Highlighting
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 > de la coloration syntaxique pour la ligne de commande
 
 * https://github.com/zdharma/fast-syntax-highlighting[Zshell Fast Syntax Highlighting]
 
-== Details
+== ipt
 image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+
+> Interactive Pipe To: The missing cli interactive workflow
+
+https://github.com/ruyadorno/ipt[iPipeTo]
+
+== ipt
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+
+== .zshrc.d
+
+.zshrc.d
+[source]
+----
+for file in ~/.zshrc.d/*.sh;
+do
+  source $file
+done
+----
+
+[source]
+----
+$ ls ~/.zshrc.d/
+advanced-ssh.sh  env.sh           ipt.sh           macosx.test      svn.sh
+aliases.sh       golang.sh        lmfr.sh          powerlevel9K.sh  zsh-highlight.sh
+----

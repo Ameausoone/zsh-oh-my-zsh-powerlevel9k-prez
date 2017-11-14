@@ -2,5 +2,9 @@
 = Powerlevel9k
 image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
+
+
+antigen theme bhilburn/powerlevel9k
+
 == Details
 image::{imagedir}/sfeir_fond_big.png[background, size=cover]
