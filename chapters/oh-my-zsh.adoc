@@ -4,7 +4,32 @@ image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 [%step]
 * https://github.com/zsh-users
-* Prezto
-* https://github.com/robbyrussell/oh-my-zsh[oh-my-zsh]
+* https://github.com/sorin-ionescu/prezto[Prezto]
+* https://github.com/robbyrussell/oh-my-zsh[Oh My Zsh]
 
-== Details
+== Oh My Zsh
+
+> Oh My Zsh will not make you a 10x developer...but you might feel like one.
+
+image::{imagedir}/oh-my-zsh-github.png[]
+
+== Plugins
+
+https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins
+
+== Examples
+
+* autojump           # brew install autojump j ...
+* brew               # aliases "bubu"
+* command-not-found  # need brew tap homebrew/command-not-found
+* colored-man-pages
+* docker             # aliases + docker history <TAB>
+* docker-compose     # aliases + docker-compose up <TAB>
+
+== Examples 2
+
+* git                # collections of aliases
+* git-remote-branch  # completions on remote branches
+* mvn                # aliases + completions
+* osx                # https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/osx
+* thefuck            # brew install thefuck https://github.com/nvbn/thefuck

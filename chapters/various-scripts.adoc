@@ -10,7 +10,7 @@ image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 image::{imagedir}/fzf.gif[]
 
-== z | autojump
+== z 
 
 > changez rapidement de répertoire
 
@@ -21,7 +21,6 @@ image::{imagedir}/fzf.gif[]
 > de la coloration syntaxique pour la ligne de commande
 
 * https://github.com/zdharma/fast-syntax-highlighting[Zshell Fast Syntax Highlighting]
-
 
 == Details
 image::{imagedir}/sfeir_fond_big.png[background, size=cover]
