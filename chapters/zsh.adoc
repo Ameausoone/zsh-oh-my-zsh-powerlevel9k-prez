@@ -1,5 +1,5 @@
 
-= Shell alternatif
+= Alternative Shell
 
 [%step]
 * http://www.zsh.org/[Zsh]
