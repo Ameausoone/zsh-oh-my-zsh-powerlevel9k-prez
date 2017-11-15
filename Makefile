@@ -14,4 +14,4 @@ generate: ## Generate HTML slides in ./docs/index.html
 	docker-compose up
 
 pdf: generate  ## Generate PDF slides from HTML slides in ./docs/slides.pdf
-	docker-compose -f pdf.yml up
+	docker-compose run build-slides asciidoctor-pdf -D /documents/docs -o slides.pdf /documents/slides.adoc

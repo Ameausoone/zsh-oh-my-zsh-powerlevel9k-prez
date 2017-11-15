@@ -9,6 +9,7 @@ before_install:
 
 script:
   - docker run -v $TRAVIS_BUILD_DIR/:/documents/ --name asciidoc-to-revealjs-prez asciidoctor/docker-asciidoctor:latest asciidoctor-revealjs -D /documents/docs -o slides.html /documents/slides.adoc
+  - docker run -v $TRAVIS_BUILD_DIR/:/documents/ --name asciidoc-to-pdf asciidoctor/docker-asciidoctor:latest asciidoctor-pdf -D /documents/docs -o slides.pdf /documents/slides.adoc
 
 after_error:
   - docker logs asciidoc-to-revealjs-prez

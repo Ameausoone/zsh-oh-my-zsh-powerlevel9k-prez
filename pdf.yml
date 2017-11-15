@@ -1,8 +1,0 @@
-version: "2.1"
-
-services:
-  build-pdf:
-    image: astefanutti/decktape
-    volumes:
-    - ./docs:/docs
-    command: /docs/slides.html /docs/slides.pdf
