@@ -29,7 +29,7 @@ image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 image::{imagedir}/logo-sfeir-big.png[noborder]
 
-(et autres scripts...)
+various scripts
 
 // Here are the chapters
 
