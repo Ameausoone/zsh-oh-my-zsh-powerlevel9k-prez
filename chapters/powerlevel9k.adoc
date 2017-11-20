@@ -22,3 +22,15 @@ $ antigen theme bhilburn/powerlevel9k
 image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 
 https://github.com/bhilburn/powerlevel9k#prompt-customization[prompt-customization]
+
+== Troubleshooting
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+
+If the theme is not loaded when starting a terminal, edit your .zshrc file and add the following:
+
+[source]
+----
+POWERLEVEL9K_INSTALLATION_PATH=$HOME/.antigen/bundles/bhilburn/powerlevel9k/powerlevel9k.zsh-theme
+----
+
+Delete the ~/.antigen folder and restart your terminal.
