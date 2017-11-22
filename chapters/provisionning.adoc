@@ -11,3 +11,9 @@ image::{imagedir}/sfeir_fond_big.png[background, size=cover]
 * http://docs.ansible.com/ansible/latest/index.html[Ansible]
 * https://github.com/webpro/awesome-dotfiles[Awesome dotfiles]
 * https://github.com/geerlingguy/mac-dev-playbook[mac-dev-playbook]
+
+== Various 
+image::{imagedir}/sfeir_fond_big.png[background, size=cover]
+
+* https://github.com/holman/dotfiles[holman/dotfiles]
+* https://github.com/mathiasbynens/dotfiles[mathiasbynens/dotfiles]
